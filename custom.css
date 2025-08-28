@@ -1,0 +1,24 @@
+:root{
+    --primary-color: green;
+    --secondary-color: orange;
+}
+
+/*aunthentication page*/
+.auth-bg{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.2)), url("https://static.vecteezy.com/system/resources/previews/041/954/411/original/green-wallpaper-and-background-download-free-free-vector.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.card-image {
+      background-image: url("https://tse4.mm.bing.net/th/id/OIP.6o2Gjn2uunFg3qs1KSkRWwHaEO?rs=1&pid=ImgDetMain&o=7&rm=3");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;    
+      min-height: 400px;  
+    }
+
+input::placeholder{
+color: rgba(26, 135, 84, .8)!important;
+    }
