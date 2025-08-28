@@ -76,67 +76,54 @@
 
 
 <!-- The Modal -->
-<div class="modal " id="myModal">
+<div class="modal fade" id="myModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="dialog">
     <div class="modal-content">
-
+      
       <!-- Modal Header -->
-      <div class="modal-header justify-content-center">
-        <h4 class="modal-title text-success fw-bolder display-5">LOGIN PAGE</h4>
+      <div class="modal-header justify-content-center border-0">
+        <h4 class="modal-title text-white fw-bolder display-5">LOGIN PAGE</h4>
       </div>
 
-      <!-- Modal body -->
-      <div class="modal-body">
-        <div class="col-md-12 ">
-               <div class="card border-2 border-success rounded-4 overflow-hidden">
-  <div class="row g-0">
-    <div class="col-md-7 ">
-      <div class="card-body">
-        <div class="card-title text-center  fw-bolder mb-4">
-          <h2 class="text-success">WELCOME BACK</h2>
-        </div>
-        <form action="/action_page.php">
-          <div class="mb-3 mt-3">
-            <label for="email" class="form-label text-success">Email:</label>
-            <input type="email" class="form-control border-success bg-light text-success" id="email" placeholder="Enter email" name="email">
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mb-3">
-                <label for="pwd" class="form-label text-success">Password:</label>
-                <input type="password" class="form-control border-success bg-light text-success" id="pwd" placeholder="Enter password" name="pswd">
+      <!-- Modal Body -->
+      <div class="modal-body d-flex justify-content-center">
+        <div class="col-md-12">
+          <div class="card border-2 border-success rounded-4 overflow-hidden">
+            <div class="row g-0">
+              <div class="col-md-7">
+                <div class="card-body">
+                  <div class="card-title text-center fw-bolder mb-4">
+                    <h2 class="text-success">WELCOME BACK</h2>
+                  </div>
+                  <form action="/action_page.php">
+                    <div class="mb-3 mt-3">
+                      <label for="email" class="form-label text-success">Email:</label>
+                      <input type="email" class="form-control border-success bg-light text-success" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd" class="form-label text-success">Password:</label>
+                      <input type="password" class="form-control border-success bg-light text-success" id="pwd" placeholder="Enter password" name="pswd">
+                    </div>
+                    <div class="form-check mb-3">
+                      <input class="form-check-input border-2" type="checkbox" name="remember">
+                      <label class="form-check-label text-success">Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-success px-5">Submit</button>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card-image rounded-end-3"></div>
               </div>
             </div>
-            <div class="d-flex justify-content-between mb-3">
-                <div class="form-check mb-3">
-            <label class="form-check-label text-success">
-              <input class="form-check-input border-2" type="checkbox" name="remember"> Remember me
-            </label>
           </div>
-            </div>
-          </div>
-          <div class="">
-            <button type="submit" class="btn btn-success px-5">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="col-md-5">
-        <div class="card-image rounded-end-3"></div>
-    </div>
-  </div>
-</div>
-
-                </div>
-            </div>
         </div>
-    </div>
-                    </div>
-                </div>
+      </div>
 
     </div>
   </div>
 </div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
 </body>
